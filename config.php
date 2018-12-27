@@ -22,7 +22,7 @@ define('REV_KEY',                       'SYNC');
 define('FS_DELIMITER',                  DIRECTORY_SEPARATOR);
 #上线系统的名称
 define('SYNC_OS_NAME',                  'SYNC');
-define('SYNC_OS_NAME_CN',               '汇拾测试中心');
+define('SYNC_OS_NAME_CN',               'PHP演示平台');
 define('MAIN_TITLE',                    SYNC_OS_NAME);
 define('SYNC_MAIN_TITLE',               SYNC_OS_NAME_CN . ' --');
 #上线系统访问的地址
