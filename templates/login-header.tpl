@@ -9,3 +9,6 @@
 </head>
 <body> 
 <div class="login_wrap">
+	<div class="login_header">
+		<img src="../static/login/img/php.png">
+	</div>
