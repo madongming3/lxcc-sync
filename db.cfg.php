@@ -3,9 +3,9 @@
  * sync上线系统数据库配置文件
  */
 $_MYSQL_INFO = array(
-                    'host'      => '127.0.0.1:3306',
+                    'host'      => 'jddb-cn-north-1-44a141110a214335.jcloud.com',
                     'username'  => 'work',
-                    'password'  => 'work2017',
+                    'password'  => 'Lxcc868811',
                     'db'        => 'sync',
                     'charset'   => 'utf8'
                     );
