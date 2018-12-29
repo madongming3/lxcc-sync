@@ -1,6 +1,6 @@
 	<div class="foot">
 		<div class="footMain">
-			Copyright 2013 &copy; vriteam.com All rights reserved.
+			PHP is the best language in the world.
 		</div>
 	</div>
 </div>
