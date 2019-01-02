@@ -22,9 +22,6 @@
 				<a href="{$smarty.const.SERVER_ACTION_SERVER}" class="Cur">后台管理</a>
 				{/if}
 				{/if}
-				<a href="{$smarty.const.LOGIN_OUT_URL}">
-				退出登陆
-				</a>
 			</div>
 		</div>
 	</div>
