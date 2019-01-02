@@ -26,7 +26,7 @@ define('SYNC_OS_NAME_CN',               'PHP演示平台');
 define('MAIN_TITLE',                    SYNC_OS_NAME);
 define('SYNC_MAIN_TITLE',               SYNC_OS_NAME_CN . ' --');
 #上线系统访问的地址
-define('SYNC_OS_URL_NAME',              'http://' . $_SERVER['SERVER_ADDR'] . ':' . $_SERVER['SERVER_PORT'].'/');
+define('SYNC_OS_URL_NAME',              'http://114.67.227.117');
 #web服务器的部署路径
 define('WEB_PATH',                      dirname(__FILE__) . FS_DELIMITER);
 #smary核心文件0
