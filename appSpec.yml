@@ -1,0 +1,4 @@
+files:
+  - source: /
+    destination: /home
+hooks: {}
