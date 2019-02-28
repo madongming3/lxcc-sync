@@ -6,6 +6,6 @@ fi
 if [ "$sip" == "192.168.0.178" ];then
     exit 1
 fi
-if [ "$sip" == "192.168.0.15" ];then
+if [ "$sip" == "192.168.0.6" ];then
     exit 1
 fi
