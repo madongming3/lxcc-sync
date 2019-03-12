@@ -1,5 +1,21 @@
 files:
   - source: /
-    destination: /home
-hooks: {}
-    
+    destination: /opt/soft
+hooks:
+   AfterInstall:
+     - location: /opt/Control/Test1.sh
+       timeout: 100
+       runas: root
+     - location: /opt/Control/Test2.sh
+       timeout: 100
+permisssions: 
+  - object: /home/config/soft
+    pattern: "**"
+    except: [function.php]
+    owner: admin
+    group: admin
+    mode: 777
+    type:
+      - file
+env:  
+  php_path: /home/config/soft/php/bin
