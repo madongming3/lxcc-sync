@@ -3,19 +3,10 @@ files:
     destination: /opt/soft
 hooks:
    AfterInstall:
-     - location: /opt/Control/Test1.sh
+     - location: touch /opt/ooooooooooo.txt || echo 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'>> ooooooooooo.txt && cd /opt/config
        timeout: 100
        runas: root
-     - location: /opt/Control/Test2.sh
+     - location: touch /opt/xx.txt || echo 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'>> xx.txt && cd /opt/config
        timeout: 100
-permisssions: 
-  - object: /home/config/soft
-    pattern: "**"
-    except: [function.php]
-    owner: admin
-    group: admin
-    mode: 777
-    type:
-      - file
-env:  
-  php_path: /home/config/soft/php/bin
+permisssions: {}
+env:  {}
