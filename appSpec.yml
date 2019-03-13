@@ -3,10 +3,10 @@ files:
     destination: /opt/soft
 hooks:
    AfterInstall:
-     - location: cd /opt/asdasdasdasdasdasdad || touch /opt/ooooooooooo.txt ; echo 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'>> /opt/ooooooooooo.txt && cd /opt/config
+     - command: cd /opt/asdasdasdasdasdasdad || touch /opt/ooooooooooo.txt ; echo 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'>> /opt/ooooooooooo.txt && cd /opt/config
        timeout: 100
        runas: root
-     - location: cd /opt/asdjoasdoasdaksdkaods ;touch /opt/xx.txt ; echo 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'>> /opt/xx.txt && cd /opt/config
+     - command: cd /opt/asdjoasdoasdaksdkaods || touch /opt/xx.txt ; echo 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'>> /opt/xx.txt && cd /opt/config
        timeout: 100
 permisssions: {}
 env:  {}
