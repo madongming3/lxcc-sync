@@ -1,7 +1,10 @@
-#!/bin/bash
-set -x
-env
+cmds:
+  - name: 'list current dir'
+    cmd: 'ls'
+  - name: 'make output dir'
+    cmd: 'mkdir -p output bin var src'
+  - name: 'copy to output dir'
+    cmd: 'cp -r bin config console function lib web appSpec.yml config.php db.cfg.php output'
 
-rm -fr output
-mkdir output
-cp -fr config console data function install lib static templates tmp web config.php db.cfg.php function.php appSpec.yml index.php start.sh  output/
+# 编译产物存储目录, 必填项
+out_dir: 'output'
