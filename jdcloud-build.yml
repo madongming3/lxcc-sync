@@ -5,7 +5,7 @@ cmds:
   - name: 'make output dir'
     cmd: 'mkdir -p output bin var src'
   - name: 'copy to output dir'
-    cmd: 'cp -r bin config console function lib web xxx appSpec.yml config.php db.cfg.php output'
+    cmd: 'cp -r bin config console function lib web start.sh  config.php db.cfg.php output'
 
 # 编译产物存储目录, 必填项
 out_dir: 'output'
